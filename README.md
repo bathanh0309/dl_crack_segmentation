@@ -1,4 +1,4 @@
-## Dùng Unet để phân vùng tọa độ vết nứt mặt đường
+## Mô hình Unet / Pytorch để phân vùng tọa độ vết nứt mặt đường
 
 ```bash
 Thành viên: Nguyễn Bá Thành
