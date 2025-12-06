@@ -6,8 +6,7 @@
 ---
 ## 2. Dành cho người phát triển
 
-### Cách đẩy folder dữ liệu lớn từ Google Colab
-Sử dụng script Python để đẩy trực tiếp từ Google Drive sang GitHub 
+### Cách đẩy folder dữ liệu lớn từ Google Colab sang Github
 
 **Các bước chính:**
 1. Tạo Personal Access Token trên GitHub (Quyền `repo`).
