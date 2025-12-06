@@ -7,6 +7,6 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/b7e936d8-ca09-428d-9714-13941f924a46"
        alt="Crack segmentation results"
-       width="800">
+       width="1400">
 </p>
 
