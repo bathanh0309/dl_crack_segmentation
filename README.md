@@ -1,19 +1,13 @@
-# Hướng dẫn Quản lý Dữ liệu và Model (Git LFS)
-
-Tài liệu này hướng dẫn cách upload bộ dữ liệu (dataset) và các file model dung lượng lớn (>100MB) lên GitHub, cũng như cách để người khác tải về sử dụng trọn vẹn.
-
+## Dùng Unet để phân vùng tọa độ vết nứt mặt đường
 ## 1. Cấu trúc dữ liệu
-Repository này bao gồm:
 - **Code**: Các notebook huấn luyện và kiểm thử mô hình.
 - **Dataset (`data_cau1/`)**: Bộ dữ liệu ảnh vết nứt bê tông (đã chia folder train/test).
 - **Model Checkpoint (`checkpoint_unet.pth`)**: Trọng số mô hình U-Net đã huấn luyện (được lưu trữ bằng Git LFS).
-
 ---
-
-## 2. Dành cho người phát triển (Upload dữ liệu)
+## 2. Dành cho người phát triển
 
 ### Cách đẩy folder dữ liệu lớn từ Google Colab
-Sử dụng script Python để đẩy trực tiếp từ Google Drive sang GitHub (bỏ qua việc download về máy cá nhân).
+Sử dụng script Python để đẩy trực tiếp từ Google Drive sang GitHub 
 
 **Các bước chính:**
 1. Tạo Personal Access Token trên GitHub (Quyền `repo`).
