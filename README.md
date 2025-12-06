@@ -1,11 +1,14 @@
 ## Dùng Unet để phân vùng tọa độ vết nứt mặt đường
-### Cấu trúc dữ liệu
-- **Code**: Các notebook huấn luyện và kiểm thử mô hình.
-- **Dataset (`data_cau1/`)**: Bộ dữ liệu ảnh vết nứt bê tông (đã chia folder train/test).
-- **Model Checkpoint (`checkpoint_unet.pth`)**: Trọng số mô hình U-Net đã huấn luyện (được lưu trữ bằng Git LFS).
----
 
-### Cách đẩy file Model lớn (>100MB)
+```bash
+Thành viên: Nguyễn Bá Thành
+```
+
+Cấu trúc dữ liệu
+- Các notebook huấn luyện và kiểm thử mô hình.
+- Dataset (`data_cau1/`)Bộ dữ liệu ảnh vết nứt bê tông (đã chia folder train/test).
+- Model Checkpoint (`checkpoint_unet.pth`): Trọng số mô hình U-Net đã huấn luyện (được lưu trữ bằng Git LFS).
+
 GitHub giới hạn file thường là 100MB. Để upload model (ví dụ 355MB), cần dùng **Git LFS (Large File Storage)**.
 
 ```bash
