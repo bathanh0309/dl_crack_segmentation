@@ -1,20 +1,9 @@
 ## Dùng Unet để phân vùng tọa độ vết nứt mặt đường
-## 1. Cấu trúc dữ liệu
+### Cấu trúc dữ liệu
 - **Code**: Các notebook huấn luyện và kiểm thử mô hình.
 - **Dataset (`data_cau1/`)**: Bộ dữ liệu ảnh vết nứt bê tông (đã chia folder train/test).
 - **Model Checkpoint (`checkpoint_unet.pth`)**: Trọng số mô hình U-Net đã huấn luyện (được lưu trữ bằng Git LFS).
 ---
-## 2. Dành cho người phát triển
-
-### Cách đẩy folder dữ liệu lớn từ Google Colab sang Github
-
-**Các bước chính:**
-1. Tạo Personal Access Token trên GitHub (Quyền `repo`).
-2. Mount Google Drive vào Colab.
-3. Config Git user/email.
-4. Clone repo về Colab.
-5. Copy folder từ Drive vào thư mục repo.
-6. Commit và Push.
 
 ### Cách đẩy file Model lớn (>100MB)
 GitHub giới hạn file thường là 100MB. Để upload model (ví dụ 355MB), cần dùng **Git LFS (Large File Storage)**.
