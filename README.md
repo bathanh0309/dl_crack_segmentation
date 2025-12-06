@@ -4,4 +4,3 @@
 
 <img width="1462" height="1490" alt="image" src="https://github.com/user-attachments/assets/2e5eadc9-c5b1-4a94-b989-69596873985f" />
 
-<img width="1381" height="900000" alt="test_results_20_samples" src="https://github.com/user-attachments/assets/34e14ec0-14bb-4170-a318-fc18fc1d0fbe" />
